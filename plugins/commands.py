@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/+aXWJyjHiRrlhYTA1')
+                InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/MC_Updates_Channal')
             ],
             [
                 InlineKeyboardButton('⚡ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚡', url=f"https://t.me/moviesclubs01"),
@@ -46,7 +46,7 @@ async def start(client, message):
         ], [
             InlineKeyboardButton('🔥Source code🔥', callback_data='source')
         ], [
-            InlineKeyboardButton('🌿 Developer 🌿', url='https://t.me/moviesclubs01'),
+            InlineKeyboardButton('🌿 Developer 🌿', url='https://t.me/Shivaash12'),
             InlineKeyboardButton('☺️ᴀʙᴏᴜᴛ ᴍᴇ☺️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -91,7 +91,7 @@ async def start(client, message):
         ], [
             InlineKeyboardButton('🔥Source Code🔥', callback_data='source')
         ], [
-            InlineKeyboardButton('🌿 Developer 🌿', url='https://t.me/Don_Vijay'),
+            InlineKeyboardButton('🌿 Developer 🌿', url='https://t.me/Shivaash12'),
             InlineKeyboardButton('☺️ᴀʙᴏᴜᴛ ᴍᴇ☺️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
